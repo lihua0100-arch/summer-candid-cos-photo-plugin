@@ -1,0 +1,1 @@
+# summer-candid-cos-photo-plugin
