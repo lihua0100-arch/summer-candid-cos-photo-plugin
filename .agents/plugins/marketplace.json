@@ -1,0 +1,20 @@
+{
+  "name": "lihua-summer-photo",
+  "interface": {
+    "displayName": "Summer Photo Plugins"
+  },
+  "plugins": [
+    {
+      "name": "summer-candid-cos-photo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/summer-candid-cos-photo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
