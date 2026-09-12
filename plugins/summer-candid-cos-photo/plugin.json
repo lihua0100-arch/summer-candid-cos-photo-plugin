@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "summer-candid-cos-photo",
+  "version": "0.1.0",
+  "description": "Generate and edit single-frame photorealistic adult summer swimwear and cosplay snapshots.",
+  "author": {
+    "name": "Personal creator"
+  },
+  "repository": "https://github.com/lihua0100-arch/summer-candid-cos-photo-plugin",
+  "keywords": [
+    "image-generation",
+    "photography",
+    "summer",
+    "cosplay"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "夏日泳装自然抓拍",
+        "shortDescription": "生成单张、真实、自然互动的成年夏日泳装与 COS 抓拍照片。",
+        "longDescription": "将人物垫图、多人身份、角色 COS、泳装设计、自然互动和真实摄影质感组合成一个连续瞬间，并避免拼图、商业摆拍、人物融合和角色元素串位。",
+        "developerName": "Personal creator",
+        "category": "Creativity",
+        "capabilities": [
+          "Image generation",
+          "Image editing"
+        ],
+        "defaultPrompt": [
+          "生成一张四位成年女性朋友在海边玩水的自然抓拍照片。",
+          "根据人物参考图生成一张夏日泳装旅行抓拍，并保持身份一致。",
+          "将指定角色转译成成年真人泳装 COS，保留角色辨识度。"
+        ]
+      }
+    }
+  }
+}
