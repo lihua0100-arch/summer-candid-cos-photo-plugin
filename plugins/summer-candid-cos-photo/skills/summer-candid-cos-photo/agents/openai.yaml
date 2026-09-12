@@ -1,0 +1,8 @@
+interface:
+  display_name: 夏日泳装自然抓拍
+  short_description: 生成单张、真实、自然互动的成年夏日泳装与 COS 抓拍照片
+  default_prompt: 使用 $summer-candid-cos-photo 生成一张夏日旅行中的成年人物自然泳装抓拍照。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
